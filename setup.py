@@ -6,7 +6,7 @@ setup(
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A simple text based maze game.',   # Give a short description about your library
   author = 'DarthStorm',                   # Type in your name
-  author_email = darthstorm08@gmail.com',      # Type in your E-Mail
+  author_email = 'darthstorm08@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/DarthStorm/TextMazeGame',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/DarthStorm/TextMazeGame/archive/refs/tags/v0.1.tar.gz',    # I explain this later on
   keywords = ['Text', 'Maze', 'Game','Box','Text-based'],   # Keywords that define your package best
