@@ -153,13 +153,16 @@ class TextGame():
         except:
             print("\n" * 100)
 
-#lvl = Game('''
-#OOOOOOOO
-#OAABAAAO
-#OPBOAAGO
-#OOOOOOOO
-#''',8,4,wall = 'O',goal = 'G',player = 'P',box = 'B',air = 'A')
-#while True:
+# lvl = TextGame('''
+# ⬛⬛⬛⬛⬛⬛⬛
+# ⬛⬜⬜⬜⬜🔷⬛
+# ⬛⬜⬛⬜⬜⬜⬛
+# ⬛⬜⬜⬛⬜🔲⬛
+# ⬛⬛🔲🔲🔶⬜⬛
+# ⬛⬜🔲⬜⬜⬜⬛
+# ⬛⬛⬛⬛⬛⬛⬛
+# ''',7,7)
+# while True:
 #    lvl.clear_output()
 #    print(lvl)
 #    d = input()
@@ -173,7 +176,7 @@ Hello,User. If you see this you have managed to break into the files of
 this module.
 '''
 if __name__ == '__main__':
-    lvl = Game('''
+    lvl = TextGame('''
 ⬛⬛⬛⬛⬛⬛⬛
 ⬛⬜⬜⬜⬜🔷⬛
 ⬛⬜⬛⬜⬜⬜⬛
@@ -182,3 +185,4 @@ if __name__ == '__main__':
 ⬛⬜🔲⬜⬜⬜⬛
 ⬛⬛⬛⬛⬛⬛⬛
 ''',7,7)
+    

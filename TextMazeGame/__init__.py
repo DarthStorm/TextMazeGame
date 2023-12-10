@@ -1,1 +1,1 @@
-from textmazegame.TextGame import Game
+from TextGame import Game
